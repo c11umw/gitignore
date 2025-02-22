@@ -1,0 +1,66 @@
+# # Ignore everything by default # #
+
+*
+
+# # Whitelist Folders # #
+
+# Dashboard Layouts
+!.storage/
+!.storage/lovelace*
+
+# Dashboard Images
+# local/images/example.jpg
+#!www/
+#!www/images/
+#!www/images/**
+
+# Blueprints
+!blueprints/
+!blueprints/**
+
+# Themes
+!themes/
+!themes/**
+
+# ESPHome
+#!esphome/
+#!esphome/**
+
+# ZHA Quirks
+!custom_zha_quirks/
+!custom_zha_quirks/**
+
+# NodeRed
+#!node-red/
+
+
+# # Whitelist Files # #
+!*.yaml
+!.gitignore
+!*.md
+!*.sh
+!*.js*
+
+
+# # uncomment to include secure/secret files * Only do if REPO is Private * # #
+# !.google.token
+# !google_calendars.yaml
+# !secrets.yaml
+# !known_devices.yaml
+
+
+# # uncomment to include SSH keys * Only do if REPO is Private * # #
+# !.ssh/
+# !id_rsa*
+
+
+# # Blacklist Folders # #
+.cloud/
+
+# # Blacklist Files (override Whitelist) # #
+*.gz
+.shopping_list.json
+ip_bans.yaml
+#known_devices.yaml
+watchman_report.txt
+
